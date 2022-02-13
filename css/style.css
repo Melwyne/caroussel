@@ -1,0 +1,41 @@
+.secCaroussel{
+    background-color: black; 
+}
+h2{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 50px;
+    color: white;
+}
+.testYouyou{
+    width: 0px;
+    margin: 10px 20px;
+    transition: 1s all;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.active{
+    width: 500px !important;
+    transition: 1s all;
+    display: initial;
+}
+.caroussel{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    max-width: 500px*3 + 10px + 40px;
+    height: 500px;
+    margin: 0 auto;
+}
+.chevron{
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 25px;
+    width: 25px;
+    padding: 5px;
+    margin: 15px;
+}
+.imgChild{
+    width: 400px;
+}
